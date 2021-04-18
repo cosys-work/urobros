@@ -1,105 +1,51 @@
+# Aurelius: Urobros
 
+First global release monorepo for cosys.work, just like the now discontinued prox-g for nep.work. Contains simple REST APIs and meta-dashboards to showcase our core functionalities & simple dashboards that demonstrate what the system and the APIs above can do.
 
-# Cosys
+## tp
 
-This project was generated using [Nx](https://nx.dev).
+TP stands for Transport Protocols and Transport Protobufs and Top Priority. It has three important sub-projects.
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+### channels
 
-🔎 **Powerful, Extensible Dev Tools**
+All pub-sub and stream channels are available under this single API and SDK.
 
-## Quick Start & Documentation
+### nginx
 
-[Nx Documentation](https://nx.dev/angular)
+All the nginx conf for all the projects will be made available here.
 
-[10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
+### protocols
 
-[Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
+All the OpenAPI specs and spec drafts will be made available here.
 
-## Adding capabilities to your workspace
+## hi
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+All sub-projects in the hi project group are of high priority. It has three distinct sub-projects.
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+### couch-potato
 
-Below are our core plugins:
+This is currently just a collection of geojson blobs for CDN and redundant blob storage on edge networks.
 
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
+### cov-hub
 
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
+This is the dashboard and the central activity hub for all things related to cov for everyone as a member of any given organization or as an individual.
 
-## Generate an application
+### prox-e
 
-Run `ng g @nrwl/angular:app my-app` to generate an application.
+This is the additional Open API server for communicating with our system and acts as a proxy to our single source of truth - core db.
 
-> You can use any of the plugins above to generate applications as well.
+## md
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+All sub-projects in the md project group are of medium priority. It has three distinct sub-projects.
 
-## Generate a library
+### indy-stay
 
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
+This is currently just a collection of geojson based id blobs for CDN and redundant blob storage on edge networks.
 
-> You can also use any of the plugins above to generate libraries as well.
+### indy-pay
 
-Libraries are shareable across libraries and applications. They can be imported from `@cosys/mylib`.
+This is the dashboard and the central activity hub for all things related to payments for everyone as a member of any given organization or as an individual.
 
-## Development server
+### indy-say
 
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
-
-## Build
-
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test my-app` to execute the unit tests via [Jest](https://jestjs.io).
-
-Run `nx affected:test` to execute the unit tests affected by a change.
-
-## Running end-to-end tests
-
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
-
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
-
-## Understand your workspace
-
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
-
-## Further help
-
-Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
-
-
-
-
-
-
-## ☁ Nx Cloud
-
-### Computation Memoization in the Cloud
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
+This is the additional Open API server for communicating with our system and acts as a proxy to our single source of consensus - core kdb.
