@@ -209,6 +209,12 @@
           }
         }
       }
+    },
+    "papi": {
+      "root": "libs/papi",
+      "sourceRoot": "libs/papi/src",
+      "projectType": "library",
+      "architect": {}
     }
   }
 }
